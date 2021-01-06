@@ -49,26 +49,9 @@ $(document).ready(function() {
             $cfsubmit = $("#cfsubmit"),
             cfsubmitText = $cfsubmit.text();
 
-        $cfsubmit.text("Sending...");
+        $cfsubmit.text("Message Sent");
 
-
-        $.ajax({
-            url: formURL,
-            type: "POST",
-            data: postData,
-            success: function(data) {
-                $cfResponse.html(data);
-                $cfsubmit.text(cfsubmitText);
-                $('#contactForm input[name=name]').val('');
-                $('#contactForm input[name=email]').val('');
-                $('#contactForm textarea[name=message]').val('');
-            },
-            error: function(data) {
-                alert("Error occurd! Please try again");
-            }
-        });
-
-        return false;
+        return True;
 
     });
 
