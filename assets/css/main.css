@@ -187,8 +187,8 @@ header {
 
 .service {
     background-color: #000000;
-    padding-bottom: 125px;
-    padding-top: 200px;
+   /* padding-bottom: 125px;
+    padding-top: 200px;*/
 }
 
 .service-title {
@@ -244,6 +244,19 @@ header {
 .service-bar {
     background: linear-gradient(#322d3f, #000000);
 }
+
+
+
+/*Service*/
+
+/*********/
+
+.service2 {
+    background-color: #000000;
+    padding-bottom: 210px;
+    padding-top: 200px;
+}
+
 
 /*Radial Bar Css*/
 
